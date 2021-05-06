@@ -32,7 +32,7 @@ Use a Markup cell to put your name at the top of the file. Submit your notebook 
 I will update the following rubric with your grade after you have completed the assignment.
 ### Rubric:
 | Exercise #  | Points Awarded (out of 1)  | Notes |
-| --------- | ------------------- | --------- |
+| --------- | -------------------: | --------- |
 | 1      |        |    |
 | 2      |        |    | 
 | 3      |        |    |
