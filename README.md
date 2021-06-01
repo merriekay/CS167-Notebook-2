@@ -33,9 +33,9 @@ I will update the following rubric with your grade after you have completed the 
 ### Rubric:
 | Exercise #  | Points Awarded (out of 1)  | Notes |
 | --------- | -------------------: | --------- |
-| 1      |        |    |
-| 2      |        |    | 
-| 3      |        |    |
-| 4      |        |    | 
-| 5      |        |    |
-| <b>Total      |      /5  | </b>   |
+| 1: subset      |        |    |
+| 2: null        |        |    | 
+| 3: knn         |        |    |
+| 4: new values  |        |    | 
+| 5: normalize   |        |    |
+| <b>Total       |      /5  | </b>   |
