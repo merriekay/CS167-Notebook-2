@@ -22,14 +22,9 @@ Notebook #2 consists of the following exercises :muscle:.
 3. Write up a k-nearest-neighbors function like the one you made for the iris data set in class. It should be able to make mpg ("comb08") predictions for new cars based on the year, cylinders, and displacement. You should also be able to specify what you want to use as k. Demonstrate that your function works by making up some new values for hypothetical cars and using your function to display the predicted mpg ("comb08") for that car.
 4. Complete Exercise #3, but for weighted-kNN. Write the function, and then demonstrate that it works with new hypothetical values. 
 5. Make a copy of your subset and normalize the training data using Z-score. 
-6. Predict the mpg of a particular car using both your k-nearest-neighbors and weighted k-nearest neighbors function with both the normalized and non-normalized training data. Compare your results. Use a markup cell to describe and explain the differences in a few sentences. 
+6. Predict the mpg of a particular car using both your k-nearest-neighbors and weighted k-nearest neighbors functions with both the normalized and non-normalized training data. Compare your results. Use a markup cell to describe and explain the differences in a few sentences. 
 
-|                | knn | w-knn |
-|----------------|-----|-------|
-| Not normalized |     |       |
-| normalized     |     |       |
-
-Use a Markup cell to put your name at the top of the file. Submit your notebook using the GitHub classroom link
+To submit your work, copy the link to your github repository, it should look something like https://github.com/cs167/notebook-2-yourgithubusername, and submit the link to the Blackboard assignment (please help me save a few clicks and make sure your link it clickable). 
 
 
 ## :white_check_mark: Grading: 
