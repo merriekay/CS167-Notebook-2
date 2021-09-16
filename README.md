@@ -19,10 +19,9 @@ Notebook #2 consists of the following exercises :muscle:.
 <b> Make sure you do the following </b>: [ 1 point each ]
 1. Work with the right subset (both rows and columns, re-read the first paragraph under 'what you need to do'): You're not going to work with the whole data set, just the cars with <b>"Regular" listed in the "fuelType" column</b>, and only use the `year`, `cylinders`, `displ`, and our target `comb08` columns. So, to start, make this subset of the original data.
 2. Check for null values in the target and predictor columns. If you have a null target value, you will need to throw that example out. If you have a null predictor value, you can either fill them in with something (like the mean/median) or you can drop those rows from the data set. Useful functions here are `isna()`, `any()`, `fillna()`, `value_counts()` and `dropna()`. Describe in a markup cell what you decided to do with the null data and why.
-3. Write up a k-nearest-neighbors function like the one you made for the iris data set in class. It should be able to make mpg ("comb08") predictions for new cars based on the year, cylinders, and displacement. You should also be able to specify what you want to use as k. Demonstrate that your function works by making up some new values for hypothetical cars and using your function to display the predicted mpg ("comb08") for that car.
-4. Complete Exercise #3, but for weighted-kNN. Write the function, and then demonstrate that it works with new hypothetical values. 
-5. Make a copy of your subset and normalize the training data using Z-score. 
-6. Predict the mpg of a particular car using both your k-nearest-neighbors and weighted k-nearest neighbors functions with both the normalized and non-normalized training data. Compare your results. Use a markup cell to describe and explain the differences in a few sentences. 
+3. Write up a k-nearest-neighbors function like the one you made for the iris data set in class. It should be able to make mpg ("comb08") predictions for new cars based on the year, cylinders, and displacement. You should also be able to specify what you want to use as k.
+4. Demonstrate that your function works by making up some new values for hypothetical cars and using your function to display the predicted mpg ("comb08") for that car.
+5. Make a copy of the data and normalize the training data using Z-score-- copy() will be useful here. Predict the mpg of a particular car using your k-nearest-neighbors function with both the normalized and non-normalized training data. Compare your results. Use a markup cell to describe and explain the differences in a few sentences.
 
 To submit your work, copy the link to your github repository, it should look something like https://github.com/cs167/notebook-2-yourgithubusername, and submit the link to the Blackboard assignment (please help me save a few clicks and make sure your link it clickable). 
 
@@ -35,7 +34,6 @@ I will update the following rubric with your grade after you have completed the 
 | 1: subset      |        |    |
 | 2: null        |        |    | 
 | 3: knn         |        |    |
-| 4: w-knn       |        |    | 
+| 4: demo        |        |    | 
 | 5: normalize   |        |    |
-| 6: Discuss     |        |    | 
-| <b>Total       |      /6  | </b>   |
+| <b>Total       |      /5  | </b>   |
